@@ -11,8 +11,6 @@ class TramiteSeeder extends Seeder
      */
     public function run()
     {
-        
-        DB::table('tramite')->truncate();
 
         DB::table('tramite')->insert(
             [

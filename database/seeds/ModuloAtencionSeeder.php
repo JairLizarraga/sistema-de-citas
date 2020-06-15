@@ -11,8 +11,6 @@ class ModuloAtencionSeeder extends Seeder
      */
     public function run()
     {
-        
-        DB::table('modulo_atencion')->truncate();
 
         DB::table('modulo_atencion')->insert(
             [
