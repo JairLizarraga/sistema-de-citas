@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('cita', 'CitaController');
+Route::resource('calendario', 'CalendarioController');
+
+Route::delete('cita/{id}', 'CitaController@destroy');
